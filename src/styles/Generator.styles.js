@@ -1,28 +1,35 @@
 import styled from "styled-components";
 
 const GeneratorContainer = styled.div`
-display: flex;
-flex-direction: column;
-  max-width: 560px;
-  max-height: 560px;
+  display: flex;
+  flex-direction: column;
   background-color: ${({ theme }) => theme.colors.main};
-  box-shadow: 0px 4px 6px 4px rgba(94, 69, 95, 0.45);
-  border-radius: 8px;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
-  min-width: 280px;
-  padding: 24px 12px;
+  padding: 1.5em 0.75em;
 `;
 
 const Title = styled.h1`
   margin: 0;
   margin-right: -0.06em;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5em;
   text-align: center;
-  font-size: 3rem;
+  font-size: 12vw;
   line-height: 90%;
   letter-spacing: 0.06em;
   user-select: none;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 8vw;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 6vw;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 4vw;
+  }
 `;
 
 export { GeneratorContainer, Title };

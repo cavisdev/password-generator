@@ -8,8 +8,6 @@ export default function DownButton() {
     <ArrowButton
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-caret-down"
-      width="32"
-      height="32"
       viewBox="0 0 24 24"
       stroke-width="3"
       stroke-linecap="round"

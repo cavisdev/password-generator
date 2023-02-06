@@ -6,7 +6,7 @@ export default function PasswordDisplay() {
     const passwords = useStore((state) => state.passwords)
     const [isCopied, setIsCopied] = useState(false)
     
-    const passDisplay = passwords.map(item => <Password key={item} onClick={() => {
+    const passDisplay = passwords.map(item => <Password key={Math.random()} onClick={() => {
         handleCopy()
         navigator.clipboard.writeText(item)
     }}>{item}</Password>)

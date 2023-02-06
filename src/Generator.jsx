@@ -1,6 +1,6 @@
-import { GeneratorContainer, Title } from "../styles/Generator.styles";
-import Form from "./Form";
-import PasswordDisplay from "./PasswordDisplay";
+import { GeneratorContainer, Title } from "./styles/Generator.styles";
+import Form from "./components/Form";
+import PasswordDisplay from "./components/PasswordDisplay";
 
 export default function Generator() {
 

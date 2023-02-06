@@ -5,8 +5,8 @@ const ButtonContainer = styled.div`
   border-radius: 4px;
   width: 45%;
   text-align: center;
-  padding: 8px 0;
-  font-size: 1.25rem;
+  padding: 0.5em 0;
+  font-size: 6vw;
   text-transform: capitalize;
   letter-spacing: 1px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -26,6 +26,18 @@ const ButtonContainer = styled.div`
 
   &:active {
     opacity: 0.5;
+  }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 3vw;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 2vw;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.5vw;
   }
 `;
 

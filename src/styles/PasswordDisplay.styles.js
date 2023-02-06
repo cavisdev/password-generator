@@ -14,6 +14,8 @@ const Password = styled.div`
   justify-content: center;
   height: 25%;
   width: 100%;
+  font-size: 5vw;
+  padding: 1em;
   text-align: center;
   letter-spacing: 1px;
   cursor: pointer;
@@ -32,6 +34,18 @@ const Password = styled.div`
 
   &:active {
     opacity: 0.5;
+  }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 3vw;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 2vw;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.5vw;
   }
 `;
 

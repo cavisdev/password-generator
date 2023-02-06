@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const ArrowButton = styled.svg`
-margin: 0 4px;
+width: 10%;
+height: 50%;
   stroke: ${({ theme }) => theme.colors.white};
   fill: ${({ theme }) => theme.colors.white};
   cursor: pointer;
